@@ -9,7 +9,7 @@ import {
 import { setContext } from "@apollo/client/link/context";
 
 const httpLink = createHttpLink({
-  uri: "https://social-meet-app.herokuapp.com/graphql",
+  uri: "https://social-meet-app.herokuapp.com/",
 });
 
 const authLink = setContext(() => { //setting token in headers
